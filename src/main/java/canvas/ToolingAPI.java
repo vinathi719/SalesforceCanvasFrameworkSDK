@@ -153,7 +153,8 @@ public class ToolingAPI {
 		for(String delcaredMethodName : declaredMethods)
 			if(!methodReferences.contains(delcaredMethodName))
 				unusedMethods.add(delcaredMethodName);
-		
+		System.out.println("File opened...");
+		System.out.println(unusedMethods);
 		// Render HTML table to display results
 		StringBuilder sb = new StringBuilder();		
 		sb.append("<table>");
