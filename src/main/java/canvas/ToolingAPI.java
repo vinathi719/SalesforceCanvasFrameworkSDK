@@ -155,8 +155,7 @@ public class ToolingAPI {
 				unusedMethods.add(delcaredMethodName);
 		System.out.println("File opened...");
 		System.out.println(unusedMethods);
-		STDOUT("File opened...");
-		STDOUT(unusedMethods);
+		
 		// Render HTML table to display results
 		StringBuilder sb = new StringBuilder();		
 		sb.append("<table>");
