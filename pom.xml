@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>sfdc</groupId>
     <version>1.0-SNAPSHOT</version>
-    <name>Salesforce Canvas Java Template</name>
-    <artifactId>sfdc-canvas-java-template</artifactId>
+    <name>CanvasCleaningApp</name>
+    <artifactId>>CanvasCleaningApp</artifactId>
 
     <properties>
         <java.version>1.6</java.version>
